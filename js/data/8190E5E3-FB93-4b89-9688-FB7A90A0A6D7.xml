@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.2.5:1", "", "«Logical Actor» DGA operator", "EARoot/EA2/EA5/EA152.htm", "6.png", "E336", "0", "", "Actor0","{B19C2E52-EEEE-4fe6-AC5B-E4B31866816A}");
+tocTab[tocTab.length] = new Array("0.2.5:2", "", "«Logical Actor» EMMA-ARGOS", "EARoot/EA2/EA5/EA153.htm", "6.png", "E325", "0", "", "Actor0","{B327CFE8-C725-4835-9054-6B85EC6BFC67}");
+tocTab[tocTab.length] = new Array("0.2.5:3", "", "«Logical Actor» EMMA-DYML", "EARoot/EA2/EA5/EA154.htm", "6.png", "E334", "0", "", "Actor0","{54B2FE0A-8112-42e2-A876-7CA245A06FBA}");
+tocTab[tocTab.length] = new Array("0.2.5:4", "", "«Logical Actor» EMMA-GIMAN", "EARoot/EA2/EA5/EA155.htm", "6.png", "E326", "0", "", "Actor0","{8DBA35BA-A3F1-429a-80C3-06CD19EBEDE1}");
+tocTab[tocTab.length] = new Array("0.2.5:5", "", "«Logical Actor» EMMA-GIMAN MOBILE APP", "EARoot/EA2/EA5/EA156.htm", "6.png", "E342", "0", "", "Actor0","{FBA871DF-AE0E-4b5c-8B0F-779C8682E423}");
+tocTab[tocTab.length] = new Array("0.2.5:6", "", "«Logical Actor» Maintenance worker", "EARoot/EA2/EA5/EA157.htm", "6.png", "E341", "0", "", "Actor0","{25B1B430-95B1-4a40-9333-9D9FDC02451D}");
+tocTab[tocTab.length] = new Array("0.2.5:7", "", "«Logical Actor» Producer", "EARoot/EA2/EA5/EA158.htm", "6.png", "E347", "0", "", "Actor0","{37AEC7AB-BD15-47d2-A6E5-C239F09A1717}");
+tocTab[tocTab.length] = new Array("0.2.5:8", "", "«Logical Actor» SCADA", "EARoot/EA2/EA5/EA159.htm", "6.png", "E337", "0", "", "Actor0","{335E97B2-8816-4e7d-9C26-70AF9657F804}");
+tocTab[tocTab.length] = new Array("0.2.5:9", "", "«Logical Actor» System operator", "EARoot/EA2/EA5/EA160.htm", "6.png", "E312", "0", "", "Actor0","{1AA73009-DA68-487a-87C6-CE773877CAF1}");
+tocTab[tocTab.length] = new Array("0.2.5:10", "", "«Logical Actor» UAV", "EARoot/EA2/EA5/EA161.htm", "6.png", "E311", "0", "", "Actor0","{2DB1199E-5ADB-478d-9139-30C733FD54A1}");
+tocTab[tocTab.length] = new Array("0.2.5:11", "", "«Logical Actor» UAV operator", "EARoot/EA2/EA5/EA162.htm", "6.png", "E335", "0", "", "Actor0","{80BEC61B-7D2C-42e0-A14E-461811FBDFEB}");

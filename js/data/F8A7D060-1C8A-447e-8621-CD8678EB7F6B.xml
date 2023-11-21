@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5.2.1", "", "WP3-C3PO", "EARoot/EA5/EA2/EA1/EA378.htm", "4.png", "", "", "{2FE2D140-9292-45a9-B2D4-21548B50EC13}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "1", "WP4-IRIS", "EARoot/EA5/EA2/EA2/EA381.htm", "4.png", "", "", "{0C95CD78-3874-4a72-992E-15FB5B46C0C4}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3", "1", "WP5-PRECOG", "EARoot/EA5/EA2/EA3/EA394.htm", "4.png", "", "", "{92944D55-B6C8-496d-9FED-EBF1E11F2C1C}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.4", "1", "WP6-EMMA", "EARoot/EA5/EA2/EA4/EA422.htm", "4.png", "", "", "{ED51C1DF-5B56-4a97-9A1E-58F3E10F3BD1}", "Package");

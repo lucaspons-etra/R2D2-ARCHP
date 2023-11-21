@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1:1", "", "SGAM Business Layer", "EARoot/EA1/EA1.htm", "180.png", "70", "0", "", "Use Case diagram0","{4FB52B03-1FF7-4712-A016-82F4F8485AEC}");
+tocTab[tocTab.length] = new Array("0.1:2", "", "SGAM Business Layer Producer", "EARoot/EA1/EA3.htm", "180.png", "73", "0", "", "Use Case diagram0","{A5D8E166-22D1-4540-A7C4-58EC38B66106}");
+tocTab[tocTab.length] = new Array("0.1:3", "", "SGAM Business Layer RSC", "EARoot/EA1/EA5.htm", "180.png", "72", "0", "", "Use Case diagram0","{A3895B08-F79D-4a9f-B361-179354B4F95E}");
+tocTab[tocTab.length] = new Array("0.1:4", "", "SGAM Business Layer Security", "EARoot/EA1/EA7.htm", "180.png", "74", "0", "", "Use Case diagram0","{A7A6D116-1068-4985-AC35-DD8AA081EFC4}");
+tocTab[tocTab.length] = new Array("0.1:5", "", "SGAM Business Layer SO", "EARoot/EA1/EA9.htm", "180.png", "71", "0", "", "Use Case diagram0","{027F65AD-9B9C-4bd7-B2A5-7AEB764CAC44}");
+tocTab[tocTab.length] = new Array("0.1:6", "", "Business Case Analysis", "EARoot/EA1/EA11.htm", "180.png", "1", "0", "", "Use Case diagram0","{0654144F-91D3-4d3d-859A-FE80E6AE7168}");
+tocTab[tocTab.length] = new Array("0.1.1", "1", "Business Actors", "EARoot/EA1/EA1/EA20.htm", "4.png", "", "", "{00458376-425E-4f9c-A93B-F5B9BAD1B39C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "Business Goals", "EARoot/EA1/EA2/EA27.htm", "4.png", "", "", "{EFC578CC-868F-45f9-BE16-1F42FFBA32B3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3", "1", "Business use cases", "EARoot/EA1/EA3/EA64.htm", "4.png", "", "", "{17F5FF76-98A8-49dc-AC55-3DE8A0459BCE}", "Package");

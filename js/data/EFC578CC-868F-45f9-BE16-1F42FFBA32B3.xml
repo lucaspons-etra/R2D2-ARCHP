@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.1.2:1", "", "«Business Goal» BG1", "EARoot/EA1/EA2/EA28.htm", "19.png", "E438", "0", "", "Requirement0","{AB5F8DC3-9461-47df-A474-118067E88F69}");
+tocTab[tocTab.length] = new Array("0.1.2:2", "", "«Business Goal» BG2", "EARoot/EA1/EA2/EA29.htm", "19.png", "E439", "0", "", "Requirement0","{0106EFD8-0F46-4a99-BEFB-66D206E2E8EF}");
+tocTab[tocTab.length] = new Array("0.1.2:3", "", "«Business Goal» BG3", "EARoot/EA1/EA2/EA30.htm", "19.png", "E440", "0", "", "Requirement0","{1C459A3B-BCF1-4707-B4E6-D1259C948EE6}");
+tocTab[tocTab.length] = new Array("0.1.2:4", "", "«Business Goal» BG4", "EARoot/EA1/EA2/EA31.htm", "19.png", "E441", "0", "", "Requirement0","{C1898C9E-C84E-49ef-B669-735050556607}");
+tocTab[tocTab.length] = new Array("0.1.2:5", "", "«Business Goal» BG5", "EARoot/EA1/EA2/EA32.htm", "19.png", "E442", "0", "", "Requirement0","{D55EA8B5-D94A-44c4-9793-27491F8CB5A0}");
+tocTab[tocTab.length] = new Array("0.1.2:6", "", "«Business Goal» BG6", "EARoot/EA1/EA2/EA33.htm", "19.png", "E443", "0", "", "Requirement0","{24F0D459-90AA-4c52-9723-0A6B7B41D4CC}");
+tocTab[tocTab.length] = new Array("0.1.2:7", "", "«Business Goal» BG7", "EARoot/EA1/EA2/EA34.htm", "19.png", "E444", "0", "", "Requirement0","{1176BEC3-A60C-4754-B2F8-9EF67037F0B1}");
+tocTab[tocTab.length] = new Array("0.1.2:8", "", "«Business Goal» BG8", "EARoot/EA1/EA2/EA35.htm", "19.png", "E445", "0", "", "Requirement0","{199924CA-629C-40da-BF26-72DE32C5EC52}");
+tocTab[tocTab.length] = new Array("0.1.2:9", "", "«Business Goal» BG9", "EARoot/EA1/EA2/EA36.htm", "19.png", "E446", "0", "", "Requirement0","{7D6331C3-0F80-42b0-91CB-F9ADBC80B4B2}");
+tocTab[tocTab.length] = new Array("0.1.2:10", "", "«Business Goal» O1", "EARoot/EA1/EA2/EA37.htm", "19.png", "E283", "0", "", "Requirement0","{28C7ECCF-7B01-4b09-8A00-36F5D9C31B90}");
+tocTab[tocTab.length] = new Array("0.1.2:11", "", "«Business Goal» O4", "EARoot/EA1/EA2/EA38.htm", "19.png", "E284", "0", "", "Requirement0","{1A1426F4-FFBA-4c65-AC38-1B2C05E3A87D}");
+tocTab[tocTab.length] = new Array("0.1.2:12", "", "«Business Goal» O5", "EARoot/EA1/EA2/EA39.htm", "19.png", "E285", "0", "", "Requirement0","{A55A06D6-CEEB-4ad4-851C-956F4F13053C}");
+tocTab[tocTab.length] = new Array("0.1.2:13", "", "«Business Goal» O6", "EARoot/EA1/EA2/EA40.htm", "19.png", "E286", "0", "", "Requirement0","{B3A0D151-B5C6-491f-8086-C0BD2B3C8946}");
+tocTab[tocTab.length] = new Array("0.1.2:14", "", "«Business Goal» O7", "EARoot/EA1/EA2/EA41.htm", "19.png", "E287", "0", "", "Requirement0","{ACB44261-B4C0-4a9c-8D62-3F839BEFFBD9}");
+tocTab[tocTab.length] = new Array("0.1.2:15", "", "«Business Goal» O2", "EARoot/EA1/EA2/EA42.htm", "19.png", "E9", "0", "", "Requirement0","{65437D06-E4D1-4816-AFE1-442C8187B6F3}");
+tocTab[tocTab.length] = new Array("0.1.2:16", "", "«Business Goal» O3", "EARoot/EA1/EA2/EA43.htm", "19.png", "E10", "0", "", "Requirement0","{B9893840-F707-44a2-BFC2-E1087873CB18}");

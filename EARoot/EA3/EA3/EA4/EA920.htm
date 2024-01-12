@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(CDM) UC37 - Energy data tokenization</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA921.png" usemap="#EA921" border="0" />
+
+<MAP NAME="EA921">
+<area shape="rect" coords="1178,502,1278,582" href="../EA1/EA850.htm" target="_self">
+<area shape="rect" coords="1320,563,1420,643" href="../EA1/EA842.htm" target="_self">
+<area shape="rect" coords="209,963,309,1043" href="../EA1/EA856.htm" target="_self">
+<area shape="rect" coords="219,713,319,793" href="../EA1/EA829.htm" target="_self">
+<area shape="rect" coords="209,843,309,923" href="../EA1/EA828.htm" target="_self">
+<area shape="rect" coords="919,333,1019,413" href="../EA1/EA904.htm" target="_self">
+<area shape="rect" coords="929,162,1029,242" href="../EA1/EA902.htm" target="_self">
+<area shape="rect" coords="659,324,759,404" href="../EA1/EA905.htm" target="_self">
+<area shape="rect" coords="10,803,110,883" href="../EA1/EA852.htm" target="_self">
+<area shape="rect" coords="380,823,480,903" href="../EA1/EA853.htm" target="_self">
+<area shape="rect" coords="630,963,730,1043" href="../EA1/EA869.htm" target="_self">
+<area shape="rect" coords="1189,683,1289,763" href="../EA1/EA846.htm" target="_self">
+<area shape="rect" coords="799,623,879,743" href="../../../EA5/EA1/EA1014.htm" target="_self">
+<area shape="rect" coords="788,850,878,940" href="../../../EA5/EA1/EA1013.htm" target="_self">
+<area shape="rect" coords="579,33,713,122" href="../../../EA5/EA1/EA1011.htm" target="_self">
+<area shape="rect" coords="329,153,419,223" href="../../../EA5/EA1/EA1010.htm" target="_self">
+<area shape="rect" coords="250,294,320,394" href="../../../EA5/EA1/EA1077.htm" target="_self">
+<area shape="rect" coords="590,453,670,544" href="../../../EA5/EA1/EA1049.htm" target="_self">
+<area shape="rect" coords="1032,1027,1122,1117" href="../../../EA5/EA1/EA1069.htm" target="_self">
+<area shape="rect" coords="1029,473,1109,593" href="../../../EA5/EA1/EA1009.htm" target="_self">
+<area shape="rect" coords="288,1217,378,1307" href="../../../EA5/EA1/EA1040.htm" target="_self">
+<area shape="rect" coords="799,1015,889,1105" href="../../../EA5/EA1/EA1015.htm" target="_self">
+<area shape="rect" coords="459,1033,526,1091" href="../../../EA5/EA1/EA1063.htm" target="_self">
+<area shape="rect" coords="480,663,550,763" href="../../../EA5/EA1/EA1066.htm" target="_self">
+<area shape="rect" coords="470,1153,560,1243" href="../../../EA5/EA1/EA1050.htm" target="_self">
+<area shape="rect" coords="793,1207,883,1297" href="../../../EA5/EA1/EA1070.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">(CDM) UC37 - Energy data tokenization : Information Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/4/2023 11:20:23 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">12/5/2023 10:06:54 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{82CD3A2A-BD12-47c3-ABE3-DB204EE80634}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

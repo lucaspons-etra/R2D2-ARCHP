@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Actors Involved</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA100.png" usemap="#EA100" border="0" />
+
+<MAP NAME="EA100">
+<area shape="rect" coords="335,5,370,75" href="../EA5/EA652.htm" target="_self">
+<area shape="rect" coords="745,75,780,145" href="../EA5/EA655.htm" target="_self">
+<area shape="rect" coords="185,135,225,215" href="../EA5/EA691.htm" target="_self">
+<area shape="rect" coords="55,15,95,95" href="../EA5/EA673.htm" target="_self">
+<area shape="rect" coords="45,445,85,525" href="../EA5/EA669.htm" target="_self">
+<area shape="rect" coords="795,315,835,395" href="../EA5/EA679.htm" target="_self">
+<area shape="rect" coords="615,305,655,385" href="../EA5/EA676.htm" target="_self">
+<area shape="rect" coords="505,445,545,525" href="../EA5/EA689.htm" target="_self">
+<area shape="rect" coords="405,345,445,425" href="../EA5/EA653.htm" target="_self">
+<area shape="rect" coords="255,445,295,525" href="../EA5/EA690.htm" target="_self">
+<area shape="rect" coords="85,265,125,345" href="../EA5/EA699.htm" target="_self">
+<area shape="rect" coords="355,125,541,249" href="EA104.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Actors Involved : Function Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/5/2023 9:48:17 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">1/12/2024 11:52:46 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{0D7013B1-9CCA-4fdd-A22C-2CC54DD9ADE0}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>DGA operator sends measurements to EMMA-DYML</title>
+<title>EMMA-ARGOS: EMMA-ARGOS</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DGA operator sends measurements to EMMA-DYML", " : "))</script>  : Public   Activity</span>
+	<div id="name_classifier" style="display: none;"><a href="../EA5/EA698.htm">«Logical Actor» EMMA-ARGOS</a></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("EMMA-ARGOS", " : "))</script>  : Public   Sequence instance</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/12/2024 8:47:16 AM</td>
+			<td width="85%" class="ObjectDetailsValue">1/12/2024 8:40:53 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/12/2024 8:47:16 AM</td>
+			<td class="ObjectDetailsValue">1/12/2024 8:40:53 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,115 +87,262 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{0B9DCD64-B6CB-47a3-AD1F-54253C9736A7}</td>
+			<td class="ObjectDetailsValue">{D7E21993-597C-4b1b-BB8E-85AA776E0BF9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA391.htm">UC02 - Substation component status of health calculation based on SCADA measurements and DGA data _ActivityGraph</a></td>
+			<td class="ObjectDetailsValue"><a href="EA373.htm">1_Basic_Path</a>, <a href="EA383.htm">1a_Damages detection</a>, <a href="EA391.htm">1b_Electric anomalies detection</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
-			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA557.htm">EMMA-DYML analyses measurementes and identifies potential problems</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA557.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
+					<td width="50%" class="TableRow" valign="top">8.EMMA-ARGOS sends incidents to EMMA-GIMAN</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1179" onclick="parent.toggleDiv('detailsDIVLinkFlow1179', 'DetailsImageLinkFlow1179')" />Details:
-							<div id="detailsDIVLinkFlow1179" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1106" onclick="parent.toggleDiv('detailsDIVMessage1106', 'DetailsImageMessage1106')" />Details:
+							<div id="detailsDIVMessage1106" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA557.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
+					<td width="50%" class="TableRow" valign="top">5.EMMA-ARGOS sends the incidents to EMMA-GIMAN</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA555.htm">DGA operator measures gas concentration in substations oil </a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1180" onclick="parent.toggleDiv('detailsDIVLinkFlow1180', 'DetailsImageLinkFlow1180')" />Details:
-							<div id="detailsDIVLinkFlow1180" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1107" onclick="parent.toggleDiv('detailsDIVMessage1107', 'DetailsImageMessage1107')" />Details:
+							<div id="detailsDIVMessage1107" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS performs asset 3D reconstruction from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1108" onclick="parent.toggleDiv('detailsDIVMessage1108', 'DetailsImageMessage1108')" />Details:
+							<div id="detailsDIVMessage1108" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA557.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
+					<td width="50%" class="TableRow" valign="top">5.EMMA-ARGOS sends incidents to EMMA-GIMAN</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1109" onclick="parent.toggleDiv('detailsDIVMessage1109', 'DetailsImageMessage1109')" />Details:
+							<div id="detailsDIVMessage1109" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS identifies problems associates to vegetation in the lidar data</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1110" onclick="parent.toggleDiv('detailsDIVMessage1110', 'DetailsImageMessage1110')" />Details:
+							<div id="detailsDIVMessage1110" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">5.EMMA-ARGOS automativally identifies structural anomalies from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1111" onclick="parent.toggleDiv('detailsDIVMessage1111', 'DetailsImageMessage1111')" />Details:
+							<div id="detailsDIVMessage1111" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS automativally identifies electrical anomalies from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1112" onclick="parent.toggleDiv('detailsDIVMessage1112', 'DetailsImageMessage1112')" />Details:
+							<div id="detailsDIVMessage1112" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA558.htm">System operator: System operator</a></td>
+					<td width="50%" class="TableRow" valign="top">6.EMMA-ARGOS presents 3D model and raw images to system operator</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1113" onclick="parent.toggleDiv('detailsDIVMessage1113', 'DetailsImageMessage1113')" />Details:
+							<div id="detailsDIVMessage1113" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
-		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">step_guid</td>
-				<td width="50%" class="TableRow" valign="top">{E2905CBF-900E-4d69-860B-210317EFB74E}</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1181" onclick="parent.toggleDiv('detailsDIVScenario1181','DetailsImageScenario1181')" />Details:
-						<div id="detailsDIVScenario1181" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">trigger</td>
-				<td width="50%" class="TableRow" valign="top">User</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1182" onclick="parent.toggleDiv('detailsDIVScenario1182','DetailsImageScenario1182')" />Details:
-						<div id="detailsDIVScenario1182" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>
-	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA559.htm">UAV: UAV</a></td>
+					<td width="50%" class="TableRow" valign="top">3.UAV operator uploads images to EMMA-ARGOS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1114" onclick="parent.toggleDiv('detailsDIVMessage1114', 'DetailsImageMessage1114')" />Details:
+							<div id="detailsDIVMessage1114" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA559.htm">UAV: UAV</a></td>
+					<td width="50%" class="TableRow" valign="top">3.UAV operator uploads data to EMMA-ARGOS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1115" onclick="parent.toggleDiv('detailsDIVMessage1115', 'DetailsImageMessage1115')" />Details:
+							<div id="detailsDIVMessage1115" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA559.htm">UAV: UAV</a></td>
+					<td width="50%" class="TableRow" valign="top">3.UAV operator uploads images to EMMA-ARGOS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1116" onclick="parent.toggleDiv('detailsDIVMessage1116', 'DetailsImageMessage1116')" />Details:
+							<div id="detailsDIVMessage1116" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS performs asset 3D reconstruction from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1117" onclick="parent.toggleDiv('detailsDIVMessage1117', 'DetailsImageMessage1117')" />Details:
+							<div id="detailsDIVMessage1117" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS identifies problems associates to vegetation in the lidar data</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1118" onclick="parent.toggleDiv('detailsDIVMessage1118', 'DetailsImageMessage1118')" />Details:
+							<div id="detailsDIVMessage1118" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">5.EMMA-ARGOS automativally identifies structural anomalies from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1119" onclick="parent.toggleDiv('detailsDIVMessage1119', 'DetailsImageMessage1119')" />Details:
+							<div id="detailsDIVMessage1119" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA556.htm">EMMA-ARGOS: EMMA-ARGOS</a></td>
+					<td width="50%" class="TableRow" valign="top">4.EMMA-ARGOS automativally identifies electrical anomalies from the set of images</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1120" onclick="parent.toggleDiv('detailsDIVMessage1120', 'DetailsImageMessage1120')" />Details:
+							<div id="detailsDIVMessage1120" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA558.htm">System operator: System operator</a></td>
+					<td width="50%" class="TableRow" valign="top">7.System operator manually identifies structural anomalies from the 3D representation and the raw images in EMMA-ARGOS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1121" onclick="parent.toggleDiv('detailsDIVMessage1121', 'DetailsImageMessage1121')" />Details:
+							<div id="detailsDIVMessage1121" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 
 			</table>
-		</div>	</div>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

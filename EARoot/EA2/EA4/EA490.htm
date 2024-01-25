@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>TSO sends rejection to communication system</title>
+<title>Power quality server: Power quality server</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TSO sends rejection to communication system", " : "))</script>  : Public   Activity</span>
+	<div id="name_classifier" style="display: none;"><a href="../EA5/EA719.htm">«Logical Actor» Power quality server</a></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Power quality server", " : "))</script>  : Public   Sequence instance</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/10/2024 4:21:26 PM</td>
+			<td width="85%" class="ObjectDetailsValue">1/10/2024 3:57:40 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/10/2024 4:21:26 PM</td>
+			<td class="ObjectDetailsValue">1/10/2024 3:57:40 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,115 +87,108 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{1C51AC79-1F89-45a6-B4A5-EA54F0E29C49}</td>
+			<td class="ObjectDetailsValue">{EF86496E-D463-40bc-B795-D5544F3A3E31}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA405.htm">UC13 - Cost sharing of remedial actions with cross-border impact_ActivityGraph</a></td>
+			<td class="ObjectDetailsValue"><a href="EA365.htm">1_Basic_Path</a>, <a href="EA381.htm">1a_Compliance monitoring scenario </a>, <a href="EA393.htm">1b_Equivalent grid parameters calculation scenario </a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
-			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA481.htm">communication system distributes rejection to region TSO</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA491.htm">PQEL server: PQEL server</a></td>
+					<td width="50%" class="TableRow" valign="top">1. power quality server sends measurements of the emission levels of flickers,  higher harmonics and asymmetries to PQEL server</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow931" onclick="parent.toggleDiv('detailsDIVLinkFlow931', 'DetailsImageLinkFlow931')" />Details:
-							<div id="detailsDIVLinkFlow931" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage888" onclick="parent.toggleDiv('detailsDIVMessage888', 'DetailsImageMessage888')" />Details:
+							<div id="detailsDIVMessage888" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA491.htm">PQEL server: PQEL server</a></td>
+					<td width="50%" class="TableRow" valign="top">2.power quality server sends  calculated emission levels of flickers,  higher harmonics and asymmetries to PQEL server</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA478.htm">Alternate1</a><br />
-						Decision &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow932" onclick="parent.toggleDiv('detailsDIVLinkFlow932', 'DetailsImageLinkFlow932')" />Details:
-							<div id="detailsDIVLinkFlow932" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage889" onclick="parent.toggleDiv('detailsDIVMessage889', 'DetailsImageMessage889')" />Details:
+							<div id="detailsDIVMessage889" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+
 			</table>
 		</div>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
-		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">step_guid</td>
-				<td width="50%" class="TableRow" valign="top">{19E9A294-A429-4c36-9522-709DBAD47778}</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario933" onclick="parent.toggleDiv('detailsDIVScenario933','DetailsImageScenario933')" />Details:
-						<div id="detailsDIVScenario933" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">trigger</td>
-				<td width="50%" class="TableRow" valign="top">System</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario934" onclick="parent.toggleDiv('detailsDIVScenario934','DetailsImageScenario934')" />Details:
-						<div id="detailsDIVScenario934" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>
-	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="MessagesFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA491.htm">PQEL server: PQEL server</a></td>
+					<td width="50%" class="TableRow" valign="top">3.PQEL server sends results to power quality server </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage890" onclick="parent.toggleDiv('detailsDIVMessage890', 'DetailsImageMessage890')" />Details:
+							<div id="detailsDIVMessage890" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA491.htm">PQEL server: PQEL server</a></td>
+					<td width="50%" class="TableRow" valign="top">4.PQEL server upload calculation results to power quality server</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage891" onclick="parent.toggleDiv('detailsDIVMessage891', 'DetailsImageMessage891')" />Details:
+							<div id="detailsDIVMessage891" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA491.htm">PQEL server: PQEL server</a></td>
+					<td width="50%" class="TableRow" valign="top">3.PQEL server saves the results into power quality server</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage892" onclick="parent.toggleDiv('detailsDIVMessage892', 'DetailsImageMessage892')" />Details:
+							<div id="detailsDIVMessage892" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
 
 			</table>
-		</div>	</div>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

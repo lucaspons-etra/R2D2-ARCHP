@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>DER: DER</title>
+<title>DER sends generation data to EMS</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../EA5/EA653.htm">«Logical Actor» DER</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DER", " : "))</script>  : Public   Sequence instance</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DER sends generation data to EMS", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/12/2024 1:33:50 PM</td>
+			<td width="85%" class="ObjectDetailsValue">1/12/2024 1:15:47 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/12/2024 1:33:50 PM</td>
+			<td class="ObjectDetailsValue">1/12/2024 1:15:47 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,388 +87,115 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{7CC4F4AE-7D74-42e7-8164-DCC3466DF79B}</td>
+			<td class="ObjectDetailsValue">{71A68219-2549-4130-ACB1-8E90A3A4F6C9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA155.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA181.htm">UC37 - Energy data tokenization_ActivityGraph</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA267.htm">DER SCADA: DER SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">6.DER SCADA sends data to EMS</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA267.htm">EMS stores data to DSO database</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage492" onclick="parent.toggleDiv('detailsDIVMessage492', 'DetailsImageMessage492')" />Details:
-							<div id="detailsDIVMessage492" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow471" onclick="parent.toggleDiv('detailsDIVLinkFlow471', 'DetailsImageLinkFlow471')" />Details:
+							<div id="detailsDIVLinkFlow471" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">2.DER gateway sends data to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage493" onclick="parent.toggleDiv('detailsDIVMessage493', 'DetailsImageMessage493')" />Details:
-							<div id="detailsDIVMessage493" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA270.htm">SCADA: SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">5.DER gateway sends data to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage494" onclick="parent.toggleDiv('detailsDIVMessage494', 'DetailsImageMessage494')" />Details:
-							<div id="detailsDIVMessage494" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">1.DER data is sent to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage495" onclick="parent.toggleDiv('detailsDIVMessage495', 'DetailsImageMessage495')" />Details:
-							<div id="detailsDIVMessage495" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA270.htm">SCADA: SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">6.DER SCADA sends data to EMS</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage496" onclick="parent.toggleDiv('detailsDIVMessage496', 'DetailsImageMessage496')" />Details:
-							<div id="detailsDIVMessage496" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA267.htm">DER SCADA: DER SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">5.DER gateway sends data to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage497" onclick="parent.toggleDiv('detailsDIVMessage497', 'DetailsImageMessage497')" />Details:
-							<div id="detailsDIVMessage497" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">21.der gateway send command to DER</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage498" onclick="parent.toggleDiv('detailsDIVMessage498', 'DetailsImageMessage498')" />Details:
-							<div id="detailsDIVMessage498" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">5.DER gateway sends data to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage499" onclick="parent.toggleDiv('detailsDIVMessage499', 'DetailsImageMessage499')" />Details:
-							<div id="detailsDIVMessage499" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA270.htm">SCADA: SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">17.DER SCADA sends command to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage500" onclick="parent.toggleDiv('detailsDIVMessage500', 'DetailsImageMessage500')" />Details:
-							<div id="detailsDIVMessage500" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">17.DER SCADA sends command to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage501" onclick="parent.toggleDiv('detailsDIVMessage501', 'DetailsImageMessage501')" />Details:
-							<div id="detailsDIVMessage501" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">18.DER gateway sends command to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage502" onclick="parent.toggleDiv('detailsDIVMessage502', 'DetailsImageMessage502')" />Details:
-							<div id="detailsDIVMessage502" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA267.htm">DER SCADA: DER SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">17.DER SCADA sends command to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage503" onclick="parent.toggleDiv('detailsDIVMessage503', 'DetailsImageMessage503')" />Details:
-							<div id="detailsDIVMessage503" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA268.htm">EMS: EMS</a></td>
-					<td width="50%" class="TableRow" valign="top">6.DER SCADA sends data to EMS</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage504" onclick="parent.toggleDiv('detailsDIVMessage504', 'DetailsImageMessage504')" />Details:
-							<div id="detailsDIVMessage504" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">1.DER data is sent to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage505" onclick="parent.toggleDiv('detailsDIVMessage505', 'DetailsImageMessage505')" />Details:
-							<div id="detailsDIVMessage505" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">2.DER gateway sends data to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage506" onclick="parent.toggleDiv('detailsDIVMessage506', 'DetailsImageMessage506')" />Details:
-							<div id="detailsDIVMessage506" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">18.DER gateway sends command to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage507" onclick="parent.toggleDiv('detailsDIVMessage507', 'DetailsImageMessage507')" />Details:
-							<div id="detailsDIVMessage507" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">21.der gateway send command to DER</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage508" onclick="parent.toggleDiv('detailsDIVMessage508', 'DetailsImageMessage508')" />Details:
-							<div id="detailsDIVMessage508" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">5.DER gateway sends data to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage509" onclick="parent.toggleDiv('detailsDIVMessage509', 'DetailsImageMessage509')" />Details:
-							<div id="detailsDIVMessage509" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">17.DER SCADA sends command to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage510" onclick="parent.toggleDiv('detailsDIVMessage510', 'DetailsImageMessage510')" />Details:
-							<div id="detailsDIVMessage510" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">1.DER data is sent to DER gateway</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA262.htm">AMI stores data in DSO database</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage511" onclick="parent.toggleDiv('detailsDIVMessage511', 'DetailsImageMessage511')" />Details:
-							<div id="detailsDIVMessage511" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow472" onclick="parent.toggleDiv('detailsDIVLinkFlow472', 'DetailsImageLinkFlow472')" />Details:
+							<div id="detailsDIVLinkFlow472" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA268.htm">EMS: EMS</a></td>
-					<td width="50%" class="TableRow" valign="top">16.EMS sends the command to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage512" onclick="parent.toggleDiv('detailsDIVMessage512', 'DetailsImageMessage512')" />Details:
-							<div id="detailsDIVMessage512" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">21.der gateway send command to DER</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage513" onclick="parent.toggleDiv('detailsDIVMessage513', 'DetailsImageMessage513')" />Details:
-							<div id="detailsDIVMessage513" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">5.DER gateway sends data to DER SCADA</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage514" onclick="parent.toggleDiv('detailsDIVMessage514', 'DetailsImageMessage514')" />Details:
-							<div id="detailsDIVMessage514" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">20.tokenization tool sends the command validity assessment to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage515" onclick="parent.toggleDiv('detailsDIVMessage515', 'DetailsImageMessage515')" />Details:
-							<div id="detailsDIVMessage515" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">17.DER SCADA sends command to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage516" onclick="parent.toggleDiv('detailsDIVMessage516', 'DetailsImageMessage516')" />Details:
-							<div id="detailsDIVMessage516" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-	</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">step_guid</td>
+				<td width="50%" class="TableRow" valign="top">{BC19DC7F-81DE-4ae1-9ABE-D63280DA1572}</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario473" onclick="parent.toggleDiv('detailsDIVScenario473','DetailsImageScenario473')" />Details:
+						<div id="detailsDIVScenario473" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">trigger</td>
+				<td width="50%" class="TableRow" valign="top">System</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario474" onclick="parent.toggleDiv('detailsDIVScenario474','DetailsImageScenario474')" />Details:
+						<div id="detailsDIVScenario474" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

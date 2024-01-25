@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>EMMA-GIMAN: EMMA-GIMAN</title>
+<title>SCADA sends substation measurements to EMMA-DYML</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../EA5/EA667.htm">«Logical Actor» EMMA-GIMAN</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("EMMA-GIMAN", " : "))</script>  : Public   Sequence instance</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SCADA sends substation measurements to EMMA-DYML", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/12/2024 9:05:53 AM</td>
+			<td width="85%" class="ObjectDetailsValue">1/12/2024 8:47:16 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/12/2024 9:05:53 AM</td>
+			<td class="ObjectDetailsValue">1/12/2024 8:47:16 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,178 +87,115 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{410A6799-2622-434d-91B2-0A9594E07D42}</td>
+			<td class="ObjectDetailsValue">{AD0A209C-8C00-436e-9981-7ABC5B7762D7}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA329.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA425.htm">UC02 - Substation component status of health calculation based on SCADA measurements and DGA data _ActivityGraph</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA599.htm">Maintenance worker: Maintenance worker</a></td>
-					<td width="50%" class="TableRow" valign="top">6. EMMA-GIMAN mobile app presents to data and scheduling to maintenance worker</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA592.htm">EMMA-DYML identifies state of health and potential problems on substation assets</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1322" onclick="parent.toggleDiv('detailsDIVMessage1322', 'DetailsImageMessage1322')" />Details:
-							<div id="detailsDIVMessage1322" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1290" onclick="parent.toggleDiv('detailsDIVLinkFlow1290', 'DetailsImageLinkFlow1290')" />Details:
+							<div id="detailsDIVLinkFlow1290" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA597.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
-					<td width="50%" class="TableRow" valign="top">5.EMMA-GIMAN daily sends the tawsk scheduling and details to EMMA-GIMAN mobile app</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1323" onclick="parent.toggleDiv('detailsDIVMessage1323', 'DetailsImageMessage1323')" />Details:
-							<div id="detailsDIVMessage1323" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA598.htm">EMMA-GIMAN MOBILE APP: EMMA-GIMAN MOBILE APP</a></td>
-					<td width="50%" class="TableRow" valign="top">5.EMMA-GIMAN daily sends the tawsk scheduling and details to EMMA-GIMAN mobile app</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1324" onclick="parent.toggleDiv('detailsDIVMessage1324', 'DetailsImageMessage1324')" />Details:
-							<div id="detailsDIVMessage1324" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA598.htm">EMMA-GIMAN MOBILE APP: EMMA-GIMAN MOBILE APP</a></td>
-					<td width="50%" class="TableRow" valign="top">6. EMMA-GIMAN mobile app presents to data and scheduling to maintenance worker</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1325" onclick="parent.toggleDiv('detailsDIVMessage1325', 'DetailsImageMessage1325')" />Details:
-							<div id="detailsDIVMessage1325" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA597.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
-					<td width="50%" class="TableRow" valign="top">1.EMMA-GIMAN receives incidents from external systesm/processes</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1326" onclick="parent.toggleDiv('detailsDIVMessage1326', 'DetailsImageMessage1326')" />Details:
-							<div id="detailsDIVMessage1326" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA599.htm">Maintenance worker: Maintenance worker</a></td>
-					<td width="50%" class="TableRow" valign="top">4.EMMA-GIMAN periodically calculates optimal routing and scheduling of maintenance worker to perform the pending maintenance actions</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1327" onclick="parent.toggleDiv('detailsDIVMessage1327', 'DetailsImageMessage1327')" />Details:
-							<div id="detailsDIVMessage1327" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA600.htm">System operator: System operator</a></td>
-					<td width="50%" class="TableRow" valign="top">3.System operator manually introduce fleet details and constraints in EMMA-GIMAN</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA588.htm">Alternate1</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1328" onclick="parent.toggleDiv('detailsDIVMessage1328', 'DetailsImageMessage1328')" />Details:
-							<div id="detailsDIVMessage1328" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1291" onclick="parent.toggleDiv('detailsDIVLinkFlow1291', 'DetailsImageLinkFlow1291')" />Details:
+							<div id="detailsDIVLinkFlow1291" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA597.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
-					<td width="50%" class="TableRow" valign="top">5.EMMA-GIMAN daily sends the tawsk scheduling and details to EMMA-GIMAN mobile app</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1329" onclick="parent.toggleDiv('detailsDIVMessage1329', 'DetailsImageMessage1329')" />Details:
-							<div id="detailsDIVMessage1329" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA597.htm">EMMA-GIMAN: EMMA-GIMAN</a></td>
-					<td width="50%" class="TableRow" valign="top">1.EMMA-GIMAN receives incidents from external systesm/processes</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1330" onclick="parent.toggleDiv('detailsDIVMessage1330', 'DetailsImageMessage1330')" />Details:
-							<div id="detailsDIVMessage1330" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA600.htm">System operator: System operator</a></td>
-					<td width="50%" class="TableRow" valign="top">2.System operator manually introduce maintenance actions in EMMA-GIMAN</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1331" onclick="parent.toggleDiv('detailsDIVMessage1331', 'DetailsImageMessage1331')" />Details:
-							<div id="detailsDIVMessage1331" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-	</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">step_guid</td>
+				<td width="50%" class="TableRow" valign="top">{EA2385DE-A05A-47d5-9017-32201C4384FE}</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1292" onclick="parent.toggleDiv('detailsDIVScenario1292','DetailsImageScenario1292')" />Details:
+						<div id="detailsDIVScenario1292" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">trigger</td>
+				<td width="50%" class="TableRow" valign="top">User</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1293" onclick="parent.toggleDiv('detailsDIVScenario1293','DetailsImageScenario1293')" />Details:
+						<div id="detailsDIVScenario1293" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>tokenization tool: tokenization tool</title>
+<title>Smart meter sends consumption data to AMI</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../EA5/EA700.htm">«Logical Actor» tokenization tool</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("tokenization tool", " : "))</script>  : Public   Sequence instance</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Smart meter sends consumption data to AMI", " : "))</script>  : Public   Activity</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/12/2024 1:33:50 PM</td>
+			<td width="85%" class="ObjectDetailsValue">1/12/2024 1:15:47 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/12/2024 1:33:50 PM</td>
+			<td class="ObjectDetailsValue">1/12/2024 1:15:47 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,248 +87,115 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{9ECA41AD-7663-4c45-873D-7CCAC12F2557}</td>
+			<td class="ObjectDetailsValue">{59124392-F392-4f9a-AF47-764DFC516714}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA155.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA181.htm">UC37 - Energy data tokenization_ActivityGraph</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="FlowToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA264.htm">Blockchain: Blockchain</a></td>
-					<td width="50%" class="TableRow" valign="top">19.tokenization tool get tokenization onfo from blockchain and assess the validity</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA262.htm">AMI stores data in DSO database</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage545" onclick="parent.toggleDiv('detailsDIVMessage545', 'DetailsImageMessage545')" />Details:
-							<div id="detailsDIVMessage545" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow492" onclick="parent.toggleDiv('detailsDIVLinkFlow492', 'DetailsImageLinkFlow492')" />Details:
+							<div id="detailsDIVLinkFlow492" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA264.htm">Blockchain: Blockchain</a></td>
-					<td width="50%" class="TableRow" valign="top">4.tokenization tool stores data tokenization in blockchain</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage546" onclick="parent.toggleDiv('detailsDIVMessage546', 'DetailsImageMessage546')" />Details:
-							<div id="detailsDIVMessage546" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">8.tokenization tool calculates tokenization data from raw data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage547" onclick="parent.toggleDiv('detailsDIVMessage547', 'DetailsImageMessage547')" />Details:
-							<div id="detailsDIVMessage547" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">3.tokenization tool calculates data signature</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage548" onclick="parent.toggleDiv('detailsDIVMessage548', 'DetailsImageMessage548')" />Details:
-							<div id="detailsDIVMessage548" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA268.htm">EMS: EMS</a></td>
-					<td width="50%" class="TableRow" valign="top">10.tokenization tool sends the assessment of validity of data to EMS</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage549" onclick="parent.toggleDiv('detailsDIVMessage549', 'DetailsImageMessage549')" />Details:
-							<div id="detailsDIVMessage549" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA264.htm">Blockchain: Blockchain</a></td>
-					<td width="50%" class="TableRow" valign="top">15.tokenization tool tokenizes the data and stores in blockchain</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage550" onclick="parent.toggleDiv('detailsDIVMessage550', 'DetailsImageMessage550')" />Details:
-							<div id="detailsDIVMessage550" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">20.tokenization tool sends the command validity assessment to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage551" onclick="parent.toggleDiv('detailsDIVMessage551', 'DetailsImageMessage551')" />Details:
-							<div id="detailsDIVMessage551" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA266.htm">DER gateway: DER gateway</a></td>
-					<td width="50%" class="TableRow" valign="top">20.tokenization tool sends the command validity assessment to DER gateway</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage552" onclick="parent.toggleDiv('detailsDIVMessage552', 'DetailsImageMessage552')" />Details:
-							<div id="detailsDIVMessage552" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
+		<div class="ItemBody" id="FlowFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="50%" class="TableHeading">Name</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">2.DER gateway sends data to tokenization tool</td>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA272.htm">Start</a><br />
+						StateNode &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
 				</tr>
-		   		<tr>
+				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage553" onclick="parent.toggleDiv('detailsDIVMessage553', 'DetailsImageMessage553')" />Details:
-							<div id="detailsDIVMessage553" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow493" onclick="parent.toggleDiv('detailsDIVLinkFlow493', 'DetailsImageLinkFlow493')" />Details:
+							<div id="detailsDIVLinkFlow493" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA264.htm">Blockchain: Blockchain</a></td>
-					<td width="50%" class="TableRow" valign="top">9.blockchain is accesed by tokenization tool to retrieve stored tokenization data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage554" onclick="parent.toggleDiv('detailsDIVMessage554', 'DetailsImageMessage554')" />Details:
-							<div id="detailsDIVMessage554" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA268.htm">EMS: EMS</a></td>
-					<td width="50%" class="TableRow" valign="top">14.EMS sends command details to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage555" onclick="parent.toggleDiv('detailsDIVMessage555', 'DetailsImageMessage555')" />Details:
-							<div id="detailsDIVMessage555" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA268.htm">EMS: EMS</a></td>
-					<td width="50%" class="TableRow" valign="top">7.EMS sends data to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage556" onclick="parent.toggleDiv('detailsDIVMessage556', 'DetailsImageMessage556')" />Details:
-							<div id="detailsDIVMessage556" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">8.tokenization tool calculates tokenization data from raw data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage557" onclick="parent.toggleDiv('detailsDIVMessage557', 'DetailsImageMessage557')" />Details:
-							<div id="detailsDIVMessage557" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA271.htm">tokenization tool: tokenization tool</a></td>
-					<td width="50%" class="TableRow" valign="top">3.tokenization tool calculates data signature</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage558" onclick="parent.toggleDiv('detailsDIVMessage558', 'DetailsImageMessage558')" />Details:
-							<div id="detailsDIVMessage558" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA265.htm">DER: DER</a></td>
-					<td width="50%" class="TableRow" valign="top">18.DER gateway sends command to tokenization tool</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage559" onclick="parent.toggleDiv('detailsDIVMessage559', 'DetailsImageMessage559')" />Details:
-							<div id="detailsDIVMessage559" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
 			</table>
 		</div>
-	</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">step_guid</td>
+				<td width="50%" class="TableRow" valign="top">{7ED8AE66-DCF9-4cdd-B046-B49AF9543A7C}</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario494" onclick="parent.toggleDiv('detailsDIVScenario494','DetailsImageScenario494')" />Details:
+						<div id="detailsDIVScenario494" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">trigger</td>
+				<td width="50%" class="TableRow" valign="top">User</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario495" onclick="parent.toggleDiv('detailsDIVScenario495','DetailsImageScenario495')" />Details:
+						<div id="detailsDIVScenario495" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

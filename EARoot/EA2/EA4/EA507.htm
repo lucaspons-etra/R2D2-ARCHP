@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Start</title>
+<title>Communication system: Communication system</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Start", " : "))</script>  : Public   ActivityInitial</span>
+	<div id="name_classifier" style="display: none;"><a href="../EA5/EA682.htm">«Logical Actor» Communication system</a></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Communication system", " : "))</script>  : Public   Sequence instance</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/10/2024 5:33:26 PM</td>
+			<td width="85%" class="ObjectDetailsValue">1/10/2024 4:21:01 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/10/2024 5:33:26 PM</td>
+			<td class="ObjectDetailsValue">1/10/2024 4:21:01 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,40 +87,133 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{352EF55A-EBDB-4801-9846-F4D60F5B57D6}</td>
+			<td class="ObjectDetailsValue">{78319ABF-2FAC-47cd-89EF-09EB111A3F2C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA409.htm">UC17 -Outage coordination and automated creation of topology files for Individual Grid Models_ActivityGraph</a></td>
+			<td class="ObjectDetailsValue"><a href="EA355.htm">1_Basic_Path</a>, <a href="EA395.htm">8a_cost sharing disagree</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
+		<div class="ItemBody" id="MessagesToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
+					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA508.htm">TSO introduce the detailed data for planned switching on network elements  in the op Tool</a><br />
-						Activity &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+					<td width="50%" class="TableRow" valign="top"><a href="EA511.htm">TSO: TSO</a></td>
+					<td width="50%" class="TableRow" valign="top">2.communication system distributes rejection to region TSO</td>
 				</tr>
-				<tr>
+		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow976" onclick="parent.toggleDiv('detailsDIVLinkFlow976', 'DetailsImageLinkFlow976')" />Details:
-							<div id="detailsDIVLinkFlow976" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage958" onclick="parent.toggleDiv('detailsDIVMessage958', 'DetailsImageMessage958')" />Details:
+							<div id="detailsDIVMessage958" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA508.htm">EMMA RA cost sharing: EMMA RA cost sharing</a></td>
+					<td width="50%" class="TableRow" valign="top">4.communication system distributes RA costs and PTDF matrixes upon request to EMMA RA cost sharing</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage959" onclick="parent.toggleDiv('detailsDIVMessage959', 'DetailsImageMessage959')" />Details:
+							<div id="detailsDIVMessage959" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA511.htm">TSO: TSO</a></td>
+					<td width="50%" class="TableRow" valign="top">7.communication system distributes cost sharing results to different TSO</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage960" onclick="parent.toggleDiv('detailsDIVMessage960', 'DetailsImageMessage960')" />Details:
+							<div id="detailsDIVMessage960" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA511.htm">TSO: TSO</a></td>
+					<td width="50%" class="TableRow" valign="top">8.TSO accepts results and sendconfirmation to communication system</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage961" onclick="parent.toggleDiv('detailsDIVMessage961', 'DetailsImageMessage961')" />Details:
+							<div id="detailsDIVMessage961" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA508.htm">EMMA RA cost sharing: EMMA RA cost sharing</a></td>
+					<td width="50%" class="TableRow" valign="top">6.EMMA ra cost sharing uploads cost sharing results to communication system</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage962" onclick="parent.toggleDiv('detailsDIVMessage962', 'DetailsImageMessage962')" />Details:
+							<div id="detailsDIVMessage962" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA511.htm">TSO: TSO</a></td>
+					<td width="50%" class="TableRow" valign="top">1.TSO sends rejection to communication system</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage963" onclick="parent.toggleDiv('detailsDIVMessage963', 'DetailsImageMessage963')" />Details:
+							<div id="detailsDIVMessage963" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA511.htm">TSO: TSO</a></td>
+					<td width="50%" class="TableRow" valign="top">1.TSO uploads RA data to communication system</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage964" onclick="parent.toggleDiv('detailsDIVMessage964', 'DetailsImageMessage964')" />Details:
+							<div id="detailsDIVMessage964" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
 			</table>
 		</div>
 	</div>

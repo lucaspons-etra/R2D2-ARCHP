@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>PQEL server: PQEL server</title>
+<title>UC09 - Automation of power quality parameters emission levels calculation</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -33,16 +33,16 @@ function nameClassifier(name, separator)
 <body onload="initPage(this);" class="Content">
 <div class="pageHeader"></div>
 <div class="PageBody">
-	<div id="name_classifier" style="display: none;"><a href="../EA5/EA686.htm">«Logical Actor» PQEL server</a></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("PQEL server", " : "))</script>  : Public   Sequence instance</span>
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("UC09 - Automation of power quality parameters emission levels calculation", " : "))</script>  : Public  &lt;&lt;Primary Use Case&gt;&gt; UseCase</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">1/10/2024 3:57:40 PM</td>
+			<td width="85%" class="ObjectDetailsValue">7/14/2023 9:42:59 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1/10/2024 3:57:40 PM</td>
+			<td class="ObjectDetailsValue">1/10/2024 3:57:35 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,104 +87,116 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{A54E9F8B-E332-4c10-8A84-D3CE0AB9DDDA}</td>
+			<td class="ObjectDetailsValue">{FA8646B7-F983-4225-92F6-C2B25116DEED}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA325.htm">1_Basic_Path</a>, <a href="EA347.htm">1a_Compliance monitoring scenario </a>, <a href="EA359.htm">1b_Equivalent grid parameters calculation scenario </a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA1/EA3/EA44.htm">BC1</a>, <a href="EA343.htm">(FUN) UC09 - Automation of power quality parameters emission levels calculation</a>, <a href="EA419.htm">Actors involved</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
-			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">2.PQEL server calculates parameters such as R/X,  Zd,  Zi,  Zo,  Sk </td>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA733.htm">«Logical Actor» System operator</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage805" onclick="parent.toggleDiv('detailsDIVMessage805', 'DetailsImageMessage805')" />Details:
-							<div id="detailsDIVMessage805" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink806" onclick="parent.toggleDiv('detailsDIVLink806','DetailsImageLink806')" />Details:
+							<div id="detailsDIVLink806" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA456.htm">Power quality server: Power quality server</a></td>
-					<td width="50%" class="TableRow" valign="top">4.PQEL server upload calculation results to power quality server</td>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA720.htm">«Logical Actor» PQEL server</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage806" onclick="parent.toggleDiv('detailsDIVMessage806', 'DetailsImageMessage806')" />Details:
-							<div id="detailsDIVMessage806" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink807" onclick="parent.toggleDiv('detailsDIVLink807','DetailsImageLink807')" />Details:
+							<div id="detailsDIVLink807" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA456.htm">Power quality server: Power quality server</a></td>
-					<td width="50%" class="TableRow" valign="top">3.PQEL server sends results to power quality server </td>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA708.htm">«Logical Actor» Grid model server</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
 				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage807" onclick="parent.toggleDiv('detailsDIVMessage807', 'DetailsImageMessage807')" />Details:
-							<div id="detailsDIVMessage807" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink808" onclick="parent.toggleDiv('detailsDIVLink808','DetailsImageLink808')" />Details:
+							<div id="detailsDIVLink808" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA456.htm">Power quality server: Power quality server</a></td>
-					<td width="50%" class="TableRow" valign="top">3.PQEL server saves the results into power quality server</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage808" onclick="parent.toggleDiv('detailsDIVMessage808', 'DetailsImageMessage808')" />Details:
-							<div id="detailsDIVMessage808" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA719.htm">«Logical Actor» Power quality server</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">2.PQEL server perfoms calculations</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage809" onclick="parent.toggleDiv('detailsDIVMessage809', 'DetailsImageMessage809')" />Details:
-							<div id="detailsDIVMessage809" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">3.PQEL server calculates - compares the measured and calculated emission levels of flickers,  higher harmonics and asymmetries </td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage810" onclick="parent.toggleDiv('detailsDIVMessage810', 'DetailsImageMessage810')" />Details:
-							<div id="detailsDIVMessage810" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink809" onclick="parent.toggleDiv('detailsDIVLink809','DetailsImageLink809')" />Details:
+							<div id="detailsDIVLink809" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -193,109 +205,129 @@ function nameClassifier(name, separator)
 
 			</table>
 		</div>
-		<div class="ItemBody" id="MessagesFromTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Toolbox Version</td>
+				<td width="50%" class="TableRow" valign="top">0.6</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario810" onclick="parent.toggleDiv('detailsDIVScenario810','DetailsImageScenario810')" />Details:
+						<div id="detailsDIVScenario810" class="DetailsDiv" >
+						<div class="ObjectDetailsNotes">Default: 0.6<br /></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Compliance simulation scenario </td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario811" onclick="parent.toggleDiv('detailsDIVScenario811','DetailsImageScenario811')" />Details:
+							<div id="detailsDIVScenario811" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario811" onclick="parent.toggleDiv('stepDIVScenario811','StepImageScenario811')" />Steps:
+							<div id="stepDIVScenario811" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Grid model server puts selected grid model into the PQEL Server &lt;br/&gt; <br />2. PQEL server perfoms calculations&lt;br/&gt; <br />3. PQEL server sends results to power quality server &lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario812" onclick="parent.toggleDiv('detailsDIVScenario812','DetailsImageScenario812')" />Exceptions:				<div id="detailsDIVScenario812" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1a. Compliance monitoring scenario  (at End)<br />1b. Equivalent grid parameters calculation scenario  (at End)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Compliance monitoring scenario </td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario814" onclick="parent.toggleDiv('detailsDIVScenario814','DetailsImageScenario814')" />Details:
+							<div id="detailsDIVScenario814" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario814" onclick="parent.toggleDiv('stepDIVScenario814','StepImageScenario814')" />Steps:
+							<div id="stepDIVScenario814" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1.  power quality server sends measurements of the emission levels of flickers, higher harmonics and asymmetries to PQEL server&lt;br/&gt; <br />2. power quality server sends&#160;&#160;calculated emission levels of flickers, higher harmonics and asymmetries to PQEL server&lt;br/&gt; <br />3. PQEL server calculates - compares the measured and calculated emission levels of flickers, higher harmonics and asymmetries &lt;br/&gt; <br />4. PQEL server upload calculation results to power quality server&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Equivalent grid parameters calculation scenario </td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario816" onclick="parent.toggleDiv('detailsDIVScenario816','DetailsImageScenario816')" />Details:
+							<div id="detailsDIVScenario816" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario816" onclick="parent.toggleDiv('stepDIVScenario816','StepImageScenario816')" />Steps:
+							<div id="stepDIVScenario816" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. grid model server inputs grid mode linto PQEL server&lt;br/&gt; <br />2. PQEL server calculates parameters such as R/X, Zd, Zi, Zo, Sk &lt;br/&gt; <br />3. PQEL server saves the results into power quality server&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_makeComposite:</td>
+				<td width="70%" class="TableRow">True</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">SGAM Toolbox::SGAM Function Layer</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA455.htm">Grid model server: Grid model server</a></td>
-					<td width="50%" class="TableRow" valign="top">1.grid model server inputs grid mode linto PQEL server</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage811" onclick="parent.toggleDiv('detailsDIVMessage811', 'DetailsImageMessage811')" />Details:
-							<div id="detailsDIVMessage811" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">2.PQEL server calculates parameters such as R/X,  Zd,  Zi,  Zo,  Sk </td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage812" onclick="parent.toggleDiv('detailsDIVMessage812', 'DetailsImageMessage812')" />Details:
-							<div id="detailsDIVMessage812" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA456.htm">Power quality server: Power quality server</a></td>
-					<td width="50%" class="TableRow" valign="top">1. power quality server sends measurements of the emission levels of flickers,  higher harmonics and asymmetries to PQEL server</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage813" onclick="parent.toggleDiv('detailsDIVMessage813', 'DetailsImageMessage813')" />Details:
-							<div id="detailsDIVMessage813" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA455.htm">Grid model server: Grid model server</a></td>
-					<td width="50%" class="TableRow" valign="top">1.Grid model server puts selected grid model into the PQEL Server </td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage814" onclick="parent.toggleDiv('detailsDIVMessage814', 'DetailsImageMessage814')" />Details:
-							<div id="detailsDIVMessage814" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">2.PQEL server perfoms calculations</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage815" onclick="parent.toggleDiv('detailsDIVMessage815', 'DetailsImageMessage815')" />Details:
-							<div id="detailsDIVMessage815" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA456.htm">Power quality server: Power quality server</a></td>
-					<td width="50%" class="TableRow" valign="top">2.power quality server sends  calculated emission levels of flickers,  higher harmonics and asymmetries to PQEL server</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage816" onclick="parent.toggleDiv('detailsDIVMessage816', 'DetailsImageMessage816')" />Details:
-							<div id="detailsDIVMessage816" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA457.htm">PQEL server: PQEL server</a></td>
-					<td width="50%" class="TableRow" valign="top">3.PQEL server calculates - compares the measured and calculated emission levels of flickers,  higher harmonics and asymmetries </td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage817" onclick="parent.toggleDiv('detailsDIVMessage817', 'DetailsImageMessage817')" />Details:
-							<div id="detailsDIVMessage817" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA3/EA65.htm">«Business Use Case» BC1</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
 			</table>

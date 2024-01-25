@@ -3,4 +3,4 @@ tocTab[tocTab.length] = new Array("0.2", "1", "SGAM Function Layer", "EARoot/EA2
 tocTab[tocTab.length] = new Array("0.3", "1", "SGAM Information Layer", "EARoot/EA3/EA739.htm", "34.png", "", "", "{A0E5802C-0647-4c96-B0BE-698E98CFC230}", "Package");
 tocTab[tocTab.length] = new Array("0.4", "1", "SGAM Communication Layer", "EARoot/EA4/EA992.htm", "34.png", "", "", "{FBBD35A9-831B-4f0f-987F-CC1611D2BFCE}", "Package");
 tocTab[tocTab.length] = new Array("0.5", "1", "SGAM Component Layer", "EARoot/EA5/EA1044.htm", "34.png", "", "", "{F571F36A-F6BA-4657-BCD5-D522551769D1}", "Package");
-tocTab[tocTab.length] = new Array("0.6", "1", "Security Requirements", "EARoot/EA6/EA1192.htm", "34.png", "", "", "{B4EEA0F2-35AA-4d24-B032-46D2A8EE9890}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Security Requirements", "EARoot/EA6/EA1193.htm", "34.png", "", "", "{B4EEA0F2-35AA-4d24-B032-46D2A8EE9890}", "Package");
